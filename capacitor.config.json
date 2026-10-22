@@ -1,0 +1,8 @@
+{
+  "appId": "com.totichat.uilab",
+  "appName": "TotiChat UI Lab",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

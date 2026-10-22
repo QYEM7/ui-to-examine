@@ -1,0 +1,16 @@
+{
+  "name": "totichat-ui-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android:prepare": "mkdir -p www && cp index.html www/index.html && npx cap sync android",
+    "android:build": "npm run android:prepare && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/android": "^7.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.0"
+  }
+}
